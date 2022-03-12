@@ -1,107 +1,111 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <!-- Webpage meta -->
-    <meta charset="utf-8">
-    <meta name="description" content="Assign-01">
-    <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Marcus Wehbi">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
-    <link rel="manifest" href="./fav_index/site.webmanifest">
-		
-    <!-- Material Design Lite -->
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-deep_purple.min.css" />
-    
-    <!-- Material Design icon font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Give 2 Help</title>
-  </head>
-  
-  <body>
-    <!-- Uses a transparent header that draws on top of the layout's background -->
-    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-      
-      <header class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row">
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
-          <!-- Navigation -->
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="index.html">Home</a>
-            <a class="mdl-navigation__link" href="help.html">How to Help</a>
-            <a class="mdl-navigation__link" href="about.html">About Us</a>
-            <a class="mdl-navigation__link" href="contact.html">Contact Us</a>
-          </nav>
-        </div>
-      </header>
-
+   <head>
+      <!-- Webpage meta -->
+      <meta charset="utf-8">
+      <meta name="description" content="Assign-01">
+      <meta name="keywords" content="immaculata, ics2o">
+      <meta name="author" content="Marcus Wehbi">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/android-chrome-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/android-chrome-512x512.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+      <link rel="manifest" href="./fav_index/site.webmanifest">
+      <!-- Material Design Lite -->
+      <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-deep_purple.min.css" />
+      <!-- Material Design icon font -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <!-- linking my CSS main style sheet -->
+      <link rel="stylesheet" href="./css/style.css">
+      <title>Give 2 Help</title>
+   </head>
+   <body>
       <!-- Uses a transparent header that draws on top of the layout's background -->
-      <style>
-      .demo-layout-transparent {
-        background: url('./images/humancrises.jpg') center / cover;
-        
-      }
-      .demo-humancrises-layout-transparent .mdl-layout__header,
-      .demo-layout-transparent .mdl-layout__drawer-button {
-        /* This background is dark, so we set text to white. Use 87% black instead if
-           your background is light. */
-        color: black;
-      }
-      </style>
-      <center><h1 style="font-family:Didot; opacity: 0.6; background-color:white; color:black; font-size:96px;">Give 2 Help</h1></center>
-      
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Give 2 Help</span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="index.html">Home</a>
-          <a class="mdl-navigation__link" href="help.html">How to Help</a>
-          <a class="mdl-navigation__link" href="about.html">About Us</a>
-          <a class="mdl-navigation__link" href="contact.html">Contact Us</a>
-        </nav>
+      <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+         <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+               <!-- Add spacer, to align navigation to the right -->
+               <div class="mdl-layout-spacer"></div>
+               <!-- Navigation -->
+               <nav class="mdl-navigation">
+                  <a class="mdl-navigation__link" href="index.html">Home</a>
+                  <a class="mdl-navigation__link" href="help.html">How to Help</a>
+                  <a class="mdl-navigation__link" href="about.html">About Us</a>
+                  <a class="mdl-navigation__link" href="contact.html">Contact Us</a>
+               </nav>
+            </div>
+         </header>
+         <!-- Uses a transparent header that draws on top of the layout's background -->
+         <style>
+            .demo-layout-transparent {
+            background: url('./images/humancrises.jpg') center / cover;
+            }
+            .demo-humancrises-layout-transparent .mdl-layout__header,
+            .demo-layout-transparent .mdl-layout__drawer-button {
+            /* This background is dark, so we set text to white. Use 87% black instead if
+            your background is light. */
+            color: black;
+            }
+         </style>
+         <center>
+            <h1>Give 2 Help</h1>
+         </center>
+         <script>
+            function myButtonClicked() {
+              alert("Everyday we see natural disasters, conflict and extreme weather events on the news.  These events have a profound impact on the people in those areas.  We often see these news stories and wish we can help.  We help connect you with those events so you can make a change now!")
+            }
+         </script>
+         <button onclick="myButtonClicked()" style="font-size: 22px">
+         Why should you care?
+         </button>
+         <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Give 2 Help</span>
+            <nav class="mdl-navigation">
+               <a class="mdl-navigation__link" href="index.html">Home</a>
+               <a class="mdl-navigation__link" href="help.html">How to Help</a>
+               <a class="mdl-navigation__link" href="about.html">About Us</a>
+               <a class="mdl-navigation__link" href="contact.html">Contact Us</a>
+            </nav>
+         </div>
+         <main class="mdl-layout__content">
+            <center>
+               <h3>
+                  Our goal is 2 help. We connect people that need help with people that want to help. You can help:
+                  <style>
+                     .demo-list-item {
+                     width: 300px;
+                     }
+                  </style>
+                  <ol class="demo-list-item mdl-list">
+                     <li class="mdl-list__item">
+                        <span class="mdl-list__item-primary-content" style="color:navy">
+                        <b>Humanitarian Crises</b> (War, pandemic, refugees)
+                        </span>
+                     </li>
+                     <li class="mdl-list__item">
+                        <span class="mdl-list__item-primary-content" style="color:navy">
+                        <b>Natural Disasters</b> (Extreme weather events, flooding, wildfires)
+                        </span>
+                     </li>
+                     <li class="mdl-list__item">
+                        <span class="mdl-list__item-primary-content" style="color:navy">
+                        <b>Earth Initiatives</b> (Deforestation, ocean pollution, climate change)
+                        </span>
+                     </li>
+                  </ol>
+                  We help those that care, connect with the initiatives they are passionate about.
+               </h3>
+            </center>
+         </main>
+         <footer class="mdl-mini-footer">
+            <center>
+               <i>
+            </center>
+            <div class="mdl-logo">Give 2 Help is an organization that connects people with the things they care about.</div></i></center>
+         </footer>
       </div>
-
-      <main class="mdl-layout__content">
-
-        <center><h3 style="max-width: 70%; font-family:times-new-roman; opacity: 0.9; background-color:lightblue; color:maroon; font-size: 22px">Unfortunately, many people across the world have the reality that the must face where they are met with a crisis. These crises include:
-        <style>
-        .demo-list-item {
-          width: 300px;
-        }
-        </style>
-        
-        <ol class="demo-list-item mdl-list">
-          <li class="mdl-list__item">
-            <span class="mdl-list__item-primary-content" style="color:navy">
-              Humanitarian (War, global pandemic)
-            </span>
-          </li>
-          <li class="mdl-list__item">
-            <span class="mdl-list__item-primary-content" style="color:navy">
-              Natural (Tornadoes, Severe Storms)
-            </span>
-          </li>
-          <li class="mdl-list__item">
-            <span class="mdl-list__item-primary-content" style="color:navy">
-              Earthly (Deforestation, Global warming )
-            </span>
-          </li>
-        </ol>Often, the case is that they have no support or help whatsoever, having to deal with their conflicts all alone.</h3></center>
-      
-        
-      </main>
-      
-
-      <footer class="mdl-mini-footer">
-        <div class="mdl-logo">Give 2 Help is a great service</div>
-      </footer>
-      
-    </div>
-  </body>
+   </body>
 </html>

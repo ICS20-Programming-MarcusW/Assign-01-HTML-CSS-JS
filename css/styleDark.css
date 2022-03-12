@@ -1,5 +1,5 @@
 .demo-layout-transparent {
-  background-color:powderblue;
+  background: url('https://getmdl.io/assets/demos/transparent.jpg') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
@@ -8,10 +8,9 @@
   color: white;
 }
 
-.mdl-mini-footer .mdl-logo{
-    line-height:5px
+li{
+  background-color: rgb(200,100,0);
 }
-
 
 h1 {
   display: block;
@@ -23,15 +22,17 @@ h1 {
   margin-right: 0;
   font-weight: bold;
   opacity:0.6;
-  background-color:white;
-  color:black;
+  background-color:black;
+  color:white;
   font-size:96px;
 }
 
 h3{
   max-width: 70%;
-  background-color:lightblue;
-  color:maroon;
+  font-family:times-new-roman;
+  opacity: 0.8;
+  background-color:rgb(20,20,120);
+  color:hsl(55,65%,89%);
   display: block;
   font-size: 1.5em;
   font-family: Didot;
@@ -40,32 +41,5 @@ h3{
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
-  opacity:0.9;
-}
-
-h5{
-  padding:5px;
-  max-width: 70%;
-  font-family:times-new-roman;
-  opacity: 0.8;
-  background-color:rgb(100,200,100);
-  color:black;"
-}
-
-.demo-card-wide.mdl-card {
-  width: 512px;
-
-}
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('https://getmdl.io/assets/demos/welcome_card.jpg') center / cover;
-}
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
-
-body {
-  background: #fafafa;
-  position: relative;
+  opacity:0.8;
 }
